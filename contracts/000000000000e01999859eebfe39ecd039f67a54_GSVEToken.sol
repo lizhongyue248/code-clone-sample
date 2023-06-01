@@ -4,6 +4,8 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@uniswap/v2-core/contracts/interfaces/IUniswapV2Callee";
+import "@bancor/contracts-solidity/contracts/utility/interfaces/ICheckpointStore.sol";
+import "@@cartesi/util/contracts/Bitmask.sol";
 
 /**
 * @dev the GSVE token is a ERC20 token with burning capabilities
